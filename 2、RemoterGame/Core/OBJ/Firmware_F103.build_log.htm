@@ -1,0 +1,61 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.14.0.0
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information:  ,  , LIC=CRMW3-AQTAC-17FRR-KW4NB-VKYDP-ARBZN
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Professional  Version: 5.14.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 1 (build 106)
+Assembler:       Armasm.exe V5.05 update 1 (build 106)
+Linker/Locator:  ArmLink.exe V5.05 update 1 (build 106)
+Library Manager: ArmAr.exe V5.05 update 1 (build 106)
+Hex Converter:   FromElf.exe V5.05 update 1 (build 106)
+CPU DLL:         SARMCM3.DLL V5.14.0.0
+Dialog DLL:      DCM.DLL V1.13.1.0
+Target DLL:      Segger\JL2CM3.dll V2.99.23.0
+Dialog DLL:      TCM.DLL V1.14.4.0
+ 
+<h2>Project:</h2>
+E:\My_Prj\2、RemoterGame\Core\USER\RemoterGame.uvprojx
+Project File Date:  11/24/2020
+
+<h2>Output:</h2>
+Build target 'Firmware_F103'
+compiling main.c...
+compiling APP_JoyStick.c...
+compiling APP_Game.c...
+..\COMMUNICATE\src\APP_Game.c(60): warning:  #550-D: variable "SnakeLength" was set but never used
+        uint8_t SnakeLength;
+..\COMMUNICATE\src\APP_Game.c(102): warning:  #177-D: variable "j" was declared but never referenced
+        uint8_t i,j=0;
+..\COMMUNICATE\src\APP_Game.c(179): warning:  #177-D: variable "NewTailStatus" was declared but never referenced
+        Map_Status NewTailStatus;       //新蛇尾状态
+..\COMMUNICATE\src\APP_Game.c: 3 warnings, 0 errors
+compiling APP_Display.c...
+..\GUI_APP\src\APP_Display.c(259): warning:  #177-D: variable "n" was declared but never referenced
+        uint8_t n = 0;
+..\GUI_APP\src\APP_Display.c(260): warning:  #177-D: variable "List_Len" was declared but never referenced
+        uint8_t List_Len = 0;   //链表长度
+..\GUI_APP\src\APP_Display.c(261): warning:  #177-D: variable "ReDisplayXY" was declared but never referenced
+        PointXY ReDisplayXY;    //重现xy坐标
+..\GUI_APP\src\APP_Display.c(262): warning:  #177-D: variable "LastReDisplayXY" was declared but never referenced
+        PointXY LastReDisplayXY;        //上次重现xy坐标        
+..\GUI_APP\src\APP_Display.c: 4 warnings, 0 errors
+linking...
+Program Size: Code=19196 RO-data=11956 RW-data=176 ZI-data=19640  
+FromELF: creating hex file...
+"..\OBJ\Firmware_F103.axf" - 0 Error(s), 7 Warning(s).
+
+<h2>Collection of Component include folders:</h2>
+  E:\My_Prj\2、RemoterGame\Core\USER\RTE
+  C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\1.1.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+</pre>
+</body>
+</html>
